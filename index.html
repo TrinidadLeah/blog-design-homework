@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Blog Homework</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700|' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Teko:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
 </head>
 <body>
 	<header>
@@ -12,23 +17,25 @@
 				Stock photos that don't suck
 			</h1>
 			<h2>A list of places to find the best free stock photos</h2>
+         <img class= "profilep"src="images/profilepic.jpg" alt="">
 		
 
-
-	</header>
-	<main>
-	
-		<h2>
+</header>
+	<section class="profile">
+		<h3>
 			Dustin Senos
-		</h2>
+		</h3>
 		
 			<span>Art &amp; Design</span>
-			<time>22 January 2014</time>
-		
-		<section>
-      <p>Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.</p>
+     </section>
+      <p class="time">22 January 2014</p>
 
-      <ul>
+     <section>
+       
+	
+      <p class="bodycopy">Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.</p>
+
+      <ul class="list">
       	<li>Little Visuals <a href="http://littlevisuals.co"target="_blank">http://littlevisuals.co/</a></li>
       	<li>Unsplash <a href="http://unsplash.com"target="_blank">http://unsplash.com/</a></li>
       	<li>Death to the Stock Photo <a href="http://join.deathtothestockphoto.com/"target="_blank">http://join.deathtothestockphoto.com/</a></li>
@@ -46,60 +53,79 @@
       	<li>Public Domain Archive 
       		<a href="http://publicdomainarchive.com/"target="_blank">http://publicdomainarchive.com/</a></li>
       </ul>
-
-      <form action="">
-      	Leave a reply
+      </section>
+      <section class="comments">
+       <h4>Leave a reply</h4>
+        <form action="">
+          <input type="text" name="name" placeholder="Your Name">
+   	<textarea name="comments" id="comment" cols="30" rows="10"placeholder="Please Enter Your Message"></textarea>
+    <button>Add Comment</button>
    	
-   	<input type="text"placeholder="Your name">
-   	<textarea name="comments" id="" cols="30" rows="10"placeholder="Please Enter Your Message"></textarea>
-   	<button>Add Comment</button>
    </form>
-   <aside>
-   	<h3>Share This Post
-   	</h3>
-   	<h4>If you like this article, please take a second to share it with the world and help IdealUI grow!</h4>
-   	<ul>
+ </section>
+   <section class="share">
+   	<h5>Share This Post
+   	</h5>
+   	<p class="like">If you like this article, please take a second to share it with the world and help IdealUI grow!</p>
+    </section>
+    <section class="social">
+   	<ul >
    		<li><a href="#"target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
    		<li><a href="#"target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
-   		<li><a href="#"target="_blank"><i class="fa fa-pinterest"></i></i>Pinterest</a></li>
+   		<li><a href="#"target="_blank"><i class="fa fa-pinterest"></i>Pinterest</a></li>
    		<li><a href="#"target="_blank"><i class="fa fa-google-plus"></i>Google+</a></li>
    	</ul>
+    <section/>
    	
+<aside class="altarticles">
+
+    <section>
+      <a href="#">
+        <figure>
+        <img src="images/studio.jpg" alt="prev">
+          <figcaption>
+            <h6>Previous</h6>
+            <p class="studio">How To Get Started your own creative studio</p>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+
+    <section class="clearfix">
+      <a href="#">
+        <figure>
+          <img src="images/phone.jpg" alt="next">
+          <figcaption>
+            <h6>Next</h6>
+            <p class="studio">Enhancing User Experience With The Web Speech API</p>    
+          </figcaption>    
+        </figure>
+
+      </a>
+    </section>
+  </aside>
 
 
-
-   </aside>
-
-   <aside>
-   	<article>
-   	<p class= "nav">Previous</p>
-   	<p class="newarticle">How to get started your own creative studio</p>
-   	</article>
-   <article>
-   		<p class= "nav">Next</p>
-   		<p class="newarticle">Enhancing user experience with the web speech api</p>
-   		
-   	</article>
-
-   </aside>
-
-   <footer>
-   	<p>&copy;2015 SAGE Multipurpose Theme. Made by idealUI</p>
-   	<p>Terms of Use</p>
-   	<p>Privacy Policy</p>
+  
 
 
+  <footer>
+    &copy; 2015 SAGE Multipurpose Theme. Made by <a href="#">idealUI</a>
+    <div class="foot"> 
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>  
+    </div>
+  </footer>
 
-   </footer>
-
-
-
-
-
-
-
-	</section>
-</main>
-	
 </body>
 </html>
+
+
+
+
+
+
+
+	
+
+	
