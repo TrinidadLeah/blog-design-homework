@@ -165,16 +165,16 @@ width: 100%;
 margin-bottom: 40px;
 }
 	.social ul li{
-	float: left;
-   width: 270px;
-   height: 50px;
-	border: #d3d1d1 solid 2px;
-	margin: 15px;
-	padding-top: 13px;
-	list-style: none;
-	font-size: 20px;
-	color: #352d2f;
-	font-family: 'Teko', sans-serif;
+float: left;
+ width: 270px;
+height: 50px;
+border: #d3d1d1 solid 2px;
+margin: 15px;
+padding-top: 13px;
+list-style: none;
+font-size: 20px;
+color: #352d2f;
+font-family: 'Teko', sans-serif;
 font-weight: 400;
 font-size: 20px;
 text-transform: uppercase;
